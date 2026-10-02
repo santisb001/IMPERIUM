@@ -4,3 +4,40 @@
     box-sizing: border-box;
 }
 
+:root{
+    --main-color: rgb(103, 30, 177);
+    --secondary-color: rgb(142, 104, 168);
+    --letter-color: #fff;
+}
+body{
+    background-color:var(--secondary-color);
+    color: var(--letter-color);
+}
+header,footer{
+    background-color: var(--main-color);
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+}
+
+
+main{
+    margin: 0 auto;
+    padding: 0.5rem 1rem;
+}
+header{
+    
+}
+header p{
+    
+    
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-items: space-around;
+}
+ul a{
+    text-decoration: none;
+    color: var(--letter-color)
+}
